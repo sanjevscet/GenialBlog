@@ -11,7 +11,7 @@
     "require": {},
     "autoload": {
         "classmap": [
-            "database"
+            "src\\database"
         ]
     },
     "extra": {
