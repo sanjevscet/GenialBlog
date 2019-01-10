@@ -14,7 +14,7 @@
             "src\\database"
         ],
         "psr-4": {
-            "Genail\\": "src/",
+            "Genail\\": "src/"
         }
     },
     "extra": {
