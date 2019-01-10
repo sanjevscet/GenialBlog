@@ -12,13 +12,16 @@
     "autoload": {
         "classmap": [
             "src\\database"
-        ]
+        ],
+        "psr-4": {
+            "Genail\\": "src/",
+        }
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "Genail\\Blog\\BlogServiceProvider"
-            ]
+	      "providers": [
+		"Genail\\Blog\\BlogServiceProvider"
+	      ]
         }
     }
 }
